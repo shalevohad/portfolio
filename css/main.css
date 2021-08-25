@@ -8076,12 +8076,16 @@ header #main-nav {
   min-height: 53px;
   margin-bottom: 20px;
   font-size: 18px;
-  letter-spacing: 1px; }
+  letter-spacing: 1px;
+  background: steelblue;
+  color: #333;
+  padding-top: 20px;
+  transition: all 0.3s ease-out;
+  box-shadow: 0 5px 10px 2px rgba(0, 0, 0, 0.2); }
   header #main-nav.navbar-transparent {
     background-color: transparent !important;
     box-shadow: none;
-    color: #fff;
-    padding-top: 20px; }
+    color: #fff; }
   header #main-nav .container {
     display: flex;
     justify-content: space-between;
@@ -8139,6 +8143,8 @@ header #main-nav {
       text-align: center;
       height: 100%;
       z-index: 2; }
+      .main-page .profile-header .container:last-child {
+        height: 0; }
       .main-page .profile-header .container > .content-center {
         position: absolute;
         top: 50%;
