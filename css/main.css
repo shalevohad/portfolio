@@ -8119,7 +8119,7 @@ header #main-nav {
   .main-page .profile-header {
     position: relative;
     color: #f4f4f4;
-    background: linear-gradient(0deg, rgba(44, 44, 44, 0.4), rgba(67, 125, 172, 0.4));
+    background: linear-gradient(0deg, rgba(44, 44, 44, 0.4), rgba(67, 125, 172, 0.8));
     height: 60vh;
     max-height: 650px; }
     .main-page .profile-header::before, .main-page .profile-header::after {
@@ -8133,7 +8133,7 @@ header #main-nav {
       content: ""; }
     .main-page .profile-header .profile-header-img {
       position: absolute;
-      background: url("../img/showcase.jpg") center center/cover;
+      background: url("https://source.unsplash.com/1600x900/?shoreline") center center/cover;
       z-index: -1;
       height: 100%;
       width: 100%;
@@ -8159,7 +8159,7 @@ header #main-nav {
           position: relative; }
           .main-page .profile-header .container > .content-center .profile-img a::before {
             content: "";
-            border: 15px solid rgba(67, 125, 172, 0.4);
+            border: 15px solid rgba(67, 125, 172, 0.8);
             border-radius: 50%;
             height: 180px;
             width: 180px;
@@ -8220,7 +8220,7 @@ header #main-nav {
     margin-top: 14px;
     height: 5px;
     font-size: 1.1rem;
-    background: rgba(67, 125, 172, 0.4); }
+    background: rgba(67, 125, 172, 0.8); }
     #Skills .progress-container .progress .progress-value {
       color: steelblue;
       position: absolute;
