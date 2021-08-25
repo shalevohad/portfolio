@@ -8251,6 +8251,31 @@ header #main-nav {
 #Contact .contact {
   padding: 8% 0 8% 20%; }
 
+/* backToTop */
+.back-to-top-main {
+  display: flex;
+  position: fixed;
+  background-color: transparent;
+  bottom: 5vh;
+  width: 80px;
+  flex-direction: column;
+  text-align: left;
+  justify-content: left;
+  align-items: flex-end;
+  z-index: 20; }
+  .back-to-top-main > div {
+    cursor: pointer;
+    background: #f4f4f4;
+    border-radius: 50%;
+    border: 1px solid #ccc;
+    padding: 20px;
+    box-shadow: 5px 5px 5px rgba(51, 51, 51, 0.2);
+    transition: background-color 0.3s ease-out; }
+    .back-to-top-main > div:hover {
+      background: steelblue; }
+      .back-to-top-main > div:hover a {
+        color: #f4f4f4; }
+
 .footer {
   padding: 5rem 0; }
   .footer .social-items a {
