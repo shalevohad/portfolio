@@ -8130,6 +8130,9 @@ section {
     background: linear-gradient(0deg, rgba(44, 44, 44, 0.4), #437dac);
     height: 60vh;
     max-height: 650px; }
+    @media (max-height: 991px) {
+      .main-page .profile-header {
+        height: 410px; } }
     .main-page .profile-header::before, .main-page .profile-header::after {
       position: absolute;
       z-index: 0;
@@ -8163,6 +8166,9 @@ section {
         color: #fff;
         width: 100%;
         max-width: 1280px; }
+        @media (max-height: 767px) {
+          .main-page .profile-header .container > .content-center {
+            top: 180px; } }
         .main-page .profile-header .container > .content-center .profile-img a {
           position: relative; }
           .main-page .profile-header .container > .content-center .profile-img a::before {
