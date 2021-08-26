@@ -8130,7 +8130,7 @@ section {
     background: linear-gradient(0deg, rgba(44, 44, 44, 0.4), #437dac);
     height: 60vh;
     max-height: 650px; }
-    @media (max-height: 768px) {
+    @media (max-height: 767px) {
       .main-page .profile-header {
         height: 410px; } }
     .main-page .profile-header::before, .main-page .profile-header::after {
