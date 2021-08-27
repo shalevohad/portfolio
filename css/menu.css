@@ -282,6 +282,7 @@ textarea.form-control {
   min-height: 53px;
   margin-bottom: 20px;
   background: steelblue;
+  box-shadow: 0px 5px 10px rgba(51, 51, 51, 0.5);
   transition: all 0.3s ease-out; }
   #main-nav a {
     vertical-align: middle; }
@@ -295,7 +296,8 @@ textarea.form-control {
     padding-bottom: .625rem;
     min-height: 53px;
     margin-bottom: 20px;
-    background: transparent; }
+    background: transparent;
+    box-shadow: none; }
     @media (max-width: 767px) {
       #main-nav.navbar-transparent .navbar-brand {
         display: none; } }
@@ -329,7 +331,12 @@ textarea.form-control {
       transform: translate3d(0px, 0, 0);
       transition: all 0.5s cubic-bezier(0.685, 0.0473, 0.346, 1); }
       .nav-open .sidebar-collapse #main-nav .navbar-row {
-        transform: translate3d(-300px, 0, 0); }
+        transform: translate3d(-300px, 0, 0); } }
+    @media (max-width: 991px) and (max-height: 414px) {
+      .nav-open .sidebar-collapse #main-nav .navbar-row {
+        transform: translate3d(0px, 0, 0);
+        width: calc(100% - 200px); } }
+  @media (max-width: 991px) {
       .sidebar-collapse #main-nav .navbar-row .navbar-toggler-bar {
         display: block;
         position: relative;
@@ -401,6 +408,7 @@ textarea.form-control {
       background: linear-gradient(steelblue 0%, #333 80%);
       opacity: 0.76;
       filter: alpha(opacity=76);
+      box-shadow: 0px 0px 5px rgba(51, 51, 51, 0.5);
       display: block;
       content: "";
       position: absolute;
@@ -411,6 +419,13 @@ textarea.form-control {
       z-index: -1; }
     .nav-open .sidebar-collapse .navbar-collapse {
       transform: translate3d(0px, 0, 0); } }
+    @media (max-width: 991px) and (max-height: 415px) {
+      .nav-open .sidebar-collapse .navbar-collapse {
+        transform: translate3d(100px, 0, 0); } }
+
+@media (max-width: 991px) and (max-width: 768px) and (min-width: 416px) {
+  .nav-open .sidebar-collapse .navbar-collapse {
+    transform: translate3d(100px, 0, 0); } }
 
 @media (max-width: 991px) {
   .sidebar-collapse .navbar-collapse .navbar-nav {

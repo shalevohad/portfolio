@@ -8123,7 +8123,16 @@ section {
   position: absolute;
   width: 100%;
   top: 0;
-  left: 0; }
+  left: 0;
+  transition: all 0.3s ease-out; }
+  @media (max-width: 767px) {
+    .nav-open .main-page {
+      filter: blur(10px);
+      -webkit-filter: blur(10px); } }
+  @media (max-height: 414px) {
+    .nav-open .main-page section {
+      filter: blur(10px);
+      -webkit-filter: blur(10px); } }
   .main-page .profile-header {
     position: relative;
     color: #f4f4f4;
@@ -8144,7 +8153,7 @@ section {
       content: ""; }
     .main-page .profile-header .profile-header-img {
       position: absolute;
-      background: url("https://source.unsplash.com/1600x900/?shoreline") center center/cover;
+      background: url("https://source.unsplash.com/1800x600/?shoreline,nature") center center/cover;
       z-index: -1;
       height: 100%;
       width: 100%;
